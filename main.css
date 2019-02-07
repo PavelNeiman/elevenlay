@@ -1,7 +1,11 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Fahkwang', sans-serif;
 }
+
+
+/* header zone */
 .header{
     background-image: linear-gradient(to right, rgba(238, 214, 137, .85) 0%, rgba(232, 130, 130, .85) 100%), url(img/header.jpg);
     background-size: cover;
@@ -27,6 +31,8 @@ body{
 
 .list__item{
     list-style: none;
+    padding: 2px 15px;
+    font-size: 14px;
 }
 
 
@@ -34,4 +40,47 @@ body{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items:baseline;
+
+}
+
+p.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+}
+
+.active__link{
+    border-bottom: 6px solid yellow;
+    color: yellow;
+    padding-bottom: 5px;
+}
+
+
+
+.promo{
+    text-align: center;
+    color: white;
+    
+
+}
+
+
+.btn{
+    border: 2px solid wheat;
+    border-radius: 33px;
+    padding: 5px 35px;
+}
+.btn:hover{
+    background-color:orange;
+    color:black;
+}
+
+h1{
+    font-size: 72px;
+}
+
+.welcome{
+    font-size: 110px;
+    text-transform: uppercase;
 }
