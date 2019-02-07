@@ -1,4 +1,4 @@
-body{
+*{
     padding: 0;
     margin: 0;
     font-family: 'Fahkwang', sans-serif;
@@ -15,6 +15,7 @@ body{
 
 .wrapper{
    margin: 0px 360px;
+   text-align: center;
 }
 
 .navigation__items{
@@ -61,7 +62,7 @@ p.logo{
 .promo{
     text-align: center;
     color: white;
-    
+    padding-top: 60px;
 
 }
 
@@ -83,4 +84,49 @@ h1{
 .welcome{
     font-size: 110px;
     text-transform: uppercase;
+    padding: 50px 0px 80px 0px;
+}
+
+/* about section */
+.about{
+    background-color:wheat;
+    height: 80vh;
+}
+
+
+.about__cards{
+    display:flex;
+    flex-flow: row wrap;
+    margin: 50px 0px;
+    justify-content: space-between;
+  
+}
+.about__cards>img{
+    height: 170px;
+    width: 300px;
+    overflow: hidden;
+}
+
+.swadow{
+    box-shadow: 7px 7px 3px rgba(0,0,0,0.8);
+}
+
+.about_inf{
+    display:flex;
+    font-family: row wrap;
+    justify-content: space-between;
+       
+}
+
+
+/* nembers section */
+.numbers__section{
+    height: 20vh;
+    background-color: rgba(30,200,130, 0.4);
+    
+
+}
+
+.inf__cards{
+    color: #000;
 }
